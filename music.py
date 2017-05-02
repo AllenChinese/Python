@@ -1,4 +1,4 @@
-import io  
+import io
 import sys 
 import requests
 import json
@@ -26,10 +26,8 @@ def getcomments(musicid):
         }
         hotcomments.append(item)
 
-    # 返回热门评论
     return [content['content'] for content in hotcomments]
 
 if __name__ == '__main__':
-    hot = getcomments(439915614)
-    # print str(hot).decode(encoding='unicode_escape')
+    hot = getcomments(26402065)
     print(hot)
