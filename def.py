@@ -16,3 +16,4 @@ def quadratic(a,b,c):
 	return x1,x2
 print(quadratic(2,3,1))
 print(quadratic(1,3,-4)) 
+
